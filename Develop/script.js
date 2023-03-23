@@ -2,7 +2,7 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-var todayDate = moment(). format('dddd, MMM Do YYY');
+var todayDate = dayjs().format('MM, MMM YYY');
 $("#currentDay").html(todayDate);
 
 // TODO: Add a listener for click events on the save button. This code should
@@ -19,7 +19,7 @@ $(document).ready(function () {
   })
 
   function timeTracker() {
-    var timeNow = moment().hour();
+    var timeNow = dayjs().hour();
   }
 
 
@@ -43,6 +43,7 @@ $(".time-block").each(function() {
 
   else if (block === timeNow) {
     $(this).removeClass("past");
+    $(this).removeClass("")
   }
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
