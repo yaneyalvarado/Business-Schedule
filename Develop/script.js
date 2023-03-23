@@ -6,7 +6,7 @@ var todayDate = moment(). format('dddd, MMM Do YYY');
 $("#currentDay").html(todayDate);
 
 $(document).ready(function () {
-  
+  $(".saveBtn")
 
 $(".time-block").each(function() {
   var blockTime = parseInt($(this).attr("id").split("hour")[1]);
