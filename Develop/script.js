@@ -37,6 +37,8 @@ $(".time-block").each(function() {
 
   if (blockTime < timeNow) {
     $(this).removeClass("future");
+    $(this).removeClass("present");
+    $(this).removeClass("past");
   }
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
