@@ -8,6 +8,7 @@ $("#currentDay").html(todayDate);
 $(document).ready(function () {
   $(".saveBtn").on("click" , function() {
     var text = $(this).siblings(".description").val();
+    var time = $(this).parent().attr("id");
   })
 
 $(".time-block").each(function() {
