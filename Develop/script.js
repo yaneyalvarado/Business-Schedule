@@ -2,7 +2,7 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-var todayDate = dayjs().format('MM, MMM YYY');
+var todayDate = dayjs().format('MMMM DD, YYYY');
 $("#currentDay").html(todayDate);
 
 // TODO: Add a listener for click events on the save button. This code should
