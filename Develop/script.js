@@ -61,6 +61,7 @@ $(".time-block").each(function() {
   // attribute of each time-block be used to do this?
   //
 
+  // Save text and time in local storage.
   localStorage.setItem(time, text);
 
 });
