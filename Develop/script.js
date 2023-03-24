@@ -41,7 +41,13 @@ $(".time-block").each(function() {
     $(this).removeClass("past");
   }
 
-  else (block === timeNow) {
+  else if (block === timeNow) {
+    $(this).removeClass("past");
+    $(this).removeClass("present");
+    $(this).removeClass("future");
+  }
+
+  else {
     $(this).removeClass("past");
     $(this).removeClass("present");
     $(this).removeClass("future");
