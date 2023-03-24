@@ -15,7 +15,7 @@ $("#currentDay").html(todayDate);
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
 
-  // The event listener to save button.
+// The event listener to save button.
 $(document).ready(function () {
   $(".saveBtn").on("click" , function() {
     var text = $(this).siblings(".description").val();
