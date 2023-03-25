@@ -70,7 +70,4 @@ $("#hour-17 .description").val(localStorage.getItem("hour-17"))
   // attribute of each time-block be used to do this?
   //
 
-  // Save text and time in local storage.
- var savedData
-
 });
