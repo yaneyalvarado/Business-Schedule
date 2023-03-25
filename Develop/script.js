@@ -55,6 +55,8 @@ timeTracker()
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
   //
+$("#hour-9 .description").val(localStorage.getItem("hour-9"))
+$("#hour-10 .description").val(localStorage.getItem("hour-10"))
 
  
   // TODO: Add code to get any user input that was saved in localStorage and set
