@@ -1,18 +1,16 @@
 # Business Schedule
-A daily planner
+A daily planner to stay consistent and organized.
 
 
 ## Description
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+AS an employee with a busy schedule
+I want to add important events to a daily planner
+So that I can manage my time effectively
 
-## Acceptance Criteria
 
-```md
+## Instructions
+
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
