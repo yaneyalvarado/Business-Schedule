@@ -30,6 +30,7 @@ So that I can manage my time effectively
 https://user-images.githubusercontent.com/123707509/227678977-ace05892-8fd2-4b99-ba2a-8ac6fcd4b051.mov
 
 ## Deployment
+https://yaneyalvarado.github.io/Business-Schedule/
 
 ## GitHub
 
