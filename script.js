@@ -4,6 +4,7 @@
 
 
 // TODO: Add code to display the current date in the header of the page.
+
 // Display the current date
 var todayDate = dayjs().format('MMMM DD, YYYY');
 $("#currentDay").html(todayDate);
@@ -28,6 +29,7 @@ $(document).ready(function () {
     // var timeNow = 11
  
 
+// reiterate the times of the current day and ensure the time of the day to add background indicators for 'past', 'present' and 'future'
 $(".time-block").each(function() {
   var blockTime = parseInt($(this).attr("id").split("-")[1]); 
   console.log(blockTime)
@@ -54,7 +56,9 @@ timeTracker()
   // attribute of each time-block be used to conditionally add or remove the
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
-  //
+
+  // Obtain all info written on the calender from the local storage
+
 $("#hour-9 .description").val(localStorage.getItem("hour-9"))
 $("#hour-10 .description").val(localStorage.getItem("hour-10"))
 $("#hour-11 .description").val(localStorage.getItem("hour-11"))
