@@ -2,14 +2,14 @@
 A daily planner to stay consistent and organized.
 
 
-## Description
+## User Story
 
 AS an employee with a busy schedule
 I want to add important events to a daily planner
 So that I can manage my time effectively
 
 
-## Instructions
+## Acceptance Criteria
 
 - GIVEN I am using a daily planner to create a schedule
 - WHEN I open the planner
